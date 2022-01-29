@@ -1,0 +1,37 @@
+*{
+    font-family: 'roboto', sans-serif;
+}
+
+.nav {
+    background: linear-gradient(#d190bc, #ffe7ba 80%, #35b2a8);
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    width: 50%;
+    list-style-type: none;
+}
+.nav-title {
+    color: teal;
+    margin-left: 20px;
+
+}
+.btn {
+    box-shadow: 5px 5px black;
+    color: cornsilk;
+    background-color: #17a2b8;
+    width: 100px;
+    font-size: 15px;
+    height: 35px;
+    border: none;
+}
+.nav a {
+    color: teal;
+    text-decoration: none;
+}
